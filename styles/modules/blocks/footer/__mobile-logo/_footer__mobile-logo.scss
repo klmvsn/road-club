@@ -1,0 +1,14 @@
+.footer__mobile-logo {
+  display: none;
+  background-image: var(--footerLogo);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 38px;
+  height: 38px;
+}
+
+@media screen and (max-width: $mobile) {
+  .footer__mobile-logo {
+    display: block;
+  }
+}

@@ -1,0 +1,21 @@
+.header__hamburger-visible-button,
+.header__hamburger-visible-button::before,
+.header__hamburger-visible-button::after {
+  display: block;
+  position: absolute;
+  width: 22px;
+  height: 3px;
+  background-color: var(--textColor);
+}
+
+.header__hamburger-visible-button::before {
+  content: '';
+  top: -8px;
+}
+
+.header__hamburger-visible-button::after {
+  content: '';
+  top: 8px;
+}
+
+

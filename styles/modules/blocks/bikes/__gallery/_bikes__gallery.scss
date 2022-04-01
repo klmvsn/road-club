@@ -1,0 +1,12 @@
+.bikes__gallery {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: $mobile) {
+  .bikes__gallery {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,14 @@
+.bikes__flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+@media screen and (max-width: $mobile) {
+  .bikes__flex-row {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 0;
+  }
+}

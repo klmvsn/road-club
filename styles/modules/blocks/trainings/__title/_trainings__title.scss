@@ -1,0 +1,17 @@
+.trainings__title {
+  @include title;
+  grid-area: title;
+}
+
+@media screen and (max-width: $tablet) {
+  .trainings__title {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .trainings__title {
+    @include titleMobile;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,102 @@
+@mixin mainFont {
+  font-family: "Inter", Arial, sans-serif;
+  color: var(--textColor);
+  font-style: normal;
+}
+
+@mixin rightsideSection {
+  margin-left: 120px;
+}
+
+@mixin centeredSection {
+  margin: 0 120px;
+}
+
+@mixin title {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 60px;
+  margin: 0;
+}
+
+@mixin titleMobile {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+@mixin paragraph {
+  color: var(--paragraphColor);
+  opacity: .7;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  margin: 50px 0;
+  max-width: 460px;
+}
+
+@mixin paragraphMobile {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 40px 0;
+  width: 100%;
+}
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    color: var(--textColor);
+    opacity: var(--emailOpacity);
+  }
+
+  &:-moz-placeholder {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    color: var(--textColor);
+    opacity: var(--emailOpacity);
+   }
+
+  &::-moz-placeholder {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    color: var(--textColor);
+    opacity: var(--emailOpacity);
+  }
+
+  &:-ms-input-placeholder {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 28px;
+    color: var(--textColor);
+    opacity: var(--emailOpacity);
+  }
+}
+
+@mixin hoveredPlaceholder {
+  &::-webkit-input-placeholder {
+    color: var(--textColor);
+    transition: .3s;
+    opacity: 1;
+  }
+
+  &:-moz-placeholder {
+    color: var(--textColor);
+    transition: .3s;
+    opacity: 1;
+  }
+
+  &::-moz-placeholder {
+    color: var(--textColor);
+    transition: .3s;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    color: var(--textColor);
+    transition: .3s;
+    opacity: 1;
+  }
+}

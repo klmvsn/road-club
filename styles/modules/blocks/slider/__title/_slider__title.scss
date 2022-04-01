@@ -1,0 +1,10 @@
+.slider__title {
+  @include title;
+  grid-area: title;
+}
+
+@media screen and (max-width: $mobile) {
+  .slider__title {
+    @include titleMobile
+  }
+}

@@ -1,0 +1,13 @@
+.footer__copyright {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19.59px;
+  color: var(--copyrightColor);
+  margin: 100px 0 0;
+}
+
+@media screen and (max-width: $mobile) {
+  .footer__copyright {
+    margin-top: 0;
+  }
+}

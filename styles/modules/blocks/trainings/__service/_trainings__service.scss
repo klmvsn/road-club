@@ -1,0 +1,20 @@
+.trainings__service {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--textColor);
+  text-decoration: none;
+  margin-right: 30px;
+}
+
+.trainings__service:hover {
+  opacity: .75;
+  transition: .3s;
+}
+
+@media screen and (max-width: $mobile) {
+  .trainings__service {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

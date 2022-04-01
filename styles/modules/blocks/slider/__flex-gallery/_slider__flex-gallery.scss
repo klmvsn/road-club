@@ -1,0 +1,14 @@
+.slider__flex-gallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  position: relative;
+  grid-area: photo;
+}
+
+@media screen and (max-width: $mobile) {
+  .slider__flex-gallery {
+    margin-top: 40px;
+  }
+}

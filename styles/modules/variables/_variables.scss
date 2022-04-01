@@ -1,0 +1,67 @@
+$colorButton: #24b47e;
+$hoverColorButton: #319e75;
+$textColorButton: #fff;
+$cardColor: #f4f4f4;
+$switcherDarkTheme: #545454;
+$mobileBorder: #e3e3e3;
+$dotsColor: #cacaca;
+
+$tablet: 1099px;
+$mobile: 768px;
+
+:root {
+  --backgroundColor: #f4f4f4;
+  --textColor: #151515;
+  --paragraphColor: #222;
+  --decorationColor: #d7d4d4;
+  --sliderButton: #ebebeb;
+  --footerColor: #efefef;
+  --copyrightColor: #cfcfcf;
+  --emailOpacity: .7;
+  --opacityNormal: .6;
+  --opacityStrong: .75;
+  --sliderArrowRight: url("../images/arrow-right.svg");
+  --sliderArrowLeft: url("../images/arrow-left.svg");
+  --sun: url("../images/sun-light-theme.svg");
+  --moon: url("../images/moon-light-theme.svg");
+  --footerLogo: url("../images/footer-logo.svg");
+  --selectArrow: url("../images/select-arrow.svg");
+}
+
+html[data-theme='light'] {
+  --backgroundColor: #f4f4f4;
+  --textColor: #151515;
+  --paragraphColor: #222;
+  --decorationColor: #d7d4d4;
+  --sliderButton: #ebebeb;
+  --footerColor: #efefef;
+  --copyrightColor: #cfcfcf;
+  --emailOpacity: .7;
+  --opacityNormal: .6;
+  --opacityStrong: .75;
+  --sliderArrowRight: url("../images/arrow-right.svg");
+  --sliderArrowLeft: url("../images/arrow-left.svg");
+  --sun: url("../images/sun-light-theme.svg");
+  --moon: url("../images/moon-light-theme.svg");
+  --footerLogo: url("../images/footer-logo.svg");
+  --selectArrow: url("../images/select-arrow.svg");
+}
+
+html[data-theme='dark'] {
+  --backgroundColor: #333;
+  --textColor: #fff;
+  --paragraphColor: #e6e6e6;
+  --decorationColor: #707070;
+  --sliderButton: #434343;
+  --footerColor: #2f2f2f;
+  --copyrightColor: #565656;
+  --emailOpacity: .5;
+  --opacityNormal: .5;
+  --opacityStrong: .65;
+  --sliderArrowRight: url("../images/arrow-right-dark.svg");
+  --sliderArrowLeft: url("../images/arrow-left-dark.svg");
+  --sun: url("../images/sun-dark.svg");
+  --moon: url("../images/moon-dark.svg");
+  --footerLogo: url("../images/footer-logo-dark.svg");
+  --selectArrow: url("../images/select-arrow-dark.svg");
+}

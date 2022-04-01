@@ -1,0 +1,26 @@
+.theme-switcher__visible-slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $textColorButton;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 24px;
+}
+
+.theme-switcher__visible-slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  border-radius: 50%;
+  background-color: $colorButton;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
