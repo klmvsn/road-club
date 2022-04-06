@@ -1,3 +1,11 @@
 .trainings__links {
   grid-area: link;
+  align-self: flex-end;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: $mobile) {
+  .trainings__links {
+    align-self: flex-start;
+  }
 }

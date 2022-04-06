@@ -1,5 +1,5 @@
 .first-screen__photo {
-  width: 100%;
+  width: 610px;
   grid-area: photo;
   padding-top: 20px;
   justify-self: end;
@@ -7,6 +7,7 @@
 
 @media screen and (max-width: $tablet) {
   .first-screen__photo {
+    width: 100%;
     box-sizing: border-box;
     padding-left: 30px;
     padding-top: 40px;

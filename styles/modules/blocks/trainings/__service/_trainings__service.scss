@@ -4,7 +4,10 @@
   line-height: 28px;
   color: var(--textColor);
   text-decoration: none;
-  margin-right: 30px;
+}
+
+.trainings__service:first-of-type {
+  margin-right: 25px;
 }
 
 .trainings__service:hover {

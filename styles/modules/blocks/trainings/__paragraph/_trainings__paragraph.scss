@@ -1,6 +1,7 @@
 .trainings__paragraph {
   @include paragraph;
   grid-area: paragraph;
+  margin-top: 46px;
 }
 
 @media screen and (max-width: $mobile) {

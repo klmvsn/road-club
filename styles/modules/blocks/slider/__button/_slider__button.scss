@@ -21,6 +21,10 @@
     width: 24px;
     height: 24px;
     background-size: 4.5px 10px;
-    margin-right: 10px;
+    margin: 0;
+  }
+
+  .slider__button:first-of-type {
+    margin-right: 8px;
   }
 }
