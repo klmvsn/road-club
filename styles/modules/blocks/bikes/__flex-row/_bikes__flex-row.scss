@@ -1,7 +1,7 @@
 .bikes__flex-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   margin-bottom: 120px;
 }
 
@@ -9,6 +9,6 @@
   .bikes__flex-row {
     flex-direction: column;
     align-items: flex-start;
-    margin-bottom: 0;
+    margin-bottom: 18px;
   }
 }

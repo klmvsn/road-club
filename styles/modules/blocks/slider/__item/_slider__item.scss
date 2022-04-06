@@ -10,8 +10,8 @@
 @media screen and (max-width: $mobile) {
   .slider__item {
     grid-template-areas:
-    "title button button"
-    "photo photo photo"
-    "paragraph paragraph paragraph";
+    "title button"
+    "photo photo"
+    "paragraph paragraph";
   }
 }

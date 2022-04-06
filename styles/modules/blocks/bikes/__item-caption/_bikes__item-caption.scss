@@ -2,7 +2,7 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-  margin: 22px 0 0;
+  margin: 22px 0 0 4px;
   color: var(--textColor);
 }
 
@@ -10,5 +10,7 @@
   .bikes__item-caption {
     margin: 3px 0 16px;
     align-self: center;
+    font-size: 14px;
+    line-height: 18px;
   }
 }

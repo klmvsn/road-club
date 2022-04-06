@@ -5,10 +5,13 @@
   padding-bottom: 120px;
   display: grid;
   grid-template-areas:
-    "title . photo"
-    "paragraph . photo"
-    ". . photo"
-    "link link photo";
+    "title photo"
+    "paragraph photo"
+    ". photo"
+    "link photo";
+  grid-template-rows: 60px repeat(3,auto);
+  grid-template-columns: minmax(min-content,max-content);
+  column-gap: 13%;
 }
 
 @media screen and (max-width: $tablet) {
@@ -20,7 +23,7 @@
 
 @media screen and (max-width: $mobile) {
   .trainings {
-    margin: 40px 0 0;
+    margin: 80px 0 0;
     padding: 40px 0 60px;
     border-top: 1px solid $mobileBorder;
   }
