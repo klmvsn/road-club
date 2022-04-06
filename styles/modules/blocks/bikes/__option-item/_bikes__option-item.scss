@@ -1,0 +1,12 @@
+.bikes__option-item {
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--paragraphColor);
+  text-decoration: none;
+  opacity: .7;
+}
+
+.bikes__option-item:hover {
+  opacity: var(--opacityNormal);
+  transition: .3s;
+}

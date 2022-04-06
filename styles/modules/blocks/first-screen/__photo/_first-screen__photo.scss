@@ -1,0 +1,15 @@
+.first-screen__photo {
+  width: 100%;
+  grid-area: photo;
+  padding-top: 20px;
+  justify-self: end;
+}
+
+@media screen and (max-width: $tablet) {
+  .first-screen__photo {
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 40px;
+  }
+}
+

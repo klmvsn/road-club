@@ -1,0 +1,27 @@
+.trainings {
+  position: relative;
+  @include centeredSection;
+  padding-top: 150px;
+  padding-bottom: 120px;
+  display: grid;
+  grid-template-areas:
+    "title . photo"
+    "paragraph . photo"
+    ". . photo"
+    "link link photo";
+}
+
+@media screen and (max-width: $tablet) {
+  .trainings {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .trainings {
+    margin: 40px 0 0;
+    padding: 40px 0 60px;
+    border-top: 1px solid $mobileBorder;
+  }
+}

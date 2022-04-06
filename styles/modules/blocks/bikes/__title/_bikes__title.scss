@@ -1,0 +1,9 @@
+.bikes__title {
+  @include title;
+}
+
+@media screen and (max-width: $mobile) {
+  .bikes__title {
+    @include titleMobile;
+  }
+}

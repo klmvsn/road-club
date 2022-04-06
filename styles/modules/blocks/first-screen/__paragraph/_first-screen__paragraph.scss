@@ -1,0 +1,10 @@
+.first-screen__paragraph {
+  @include paragraph;
+  grid-area: paragraph;
+}
+
+@media screen and (max-width: $mobile) {
+ .first-screen__paragraph {
+   @include paragraphMobile;
+ }
+}

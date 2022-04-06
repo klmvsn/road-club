@@ -1,0 +1,28 @@
+.quote {
+  @include centeredSection;
+  padding-top: 120px;
+  padding-bottom: 60px;
+  display: grid;
+  grid-template-areas:
+    "photo quote"
+    "photo ."
+    "photo author"
+    "photo caption";
+  column-gap: 80px;
+}
+
+@media screen and (max-width: $tablet) {
+  .quote {
+    margin: 0 36px 0;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .quote {
+    margin: 40px 0 0;
+    padding: 20px 0 40px;
+    border-top: 1px solid $mobileBorder;
+  }
+}

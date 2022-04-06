@@ -1,0 +1,13 @@
+.slider__paragraph {
+  @include paragraph;
+  margin-bottom: 80px;
+  grid-area: paragraph;
+}
+
+@media screen and (max-width: $mobile) {
+  .slider__paragraph {
+    @include paragraphMobile;
+    margin-bottom: 0;
+  }
+}
+

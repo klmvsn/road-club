@@ -1,0 +1,22 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+@media screen and (max-width: $tablet) {
+  .menu {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .menu {
+    display: none;
+    height: calc(90vh - 74px);
+    align-self: center;
+    background-color: var(--backgroundColor);
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

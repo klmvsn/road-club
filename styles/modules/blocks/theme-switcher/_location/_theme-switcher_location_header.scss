@@ -1,0 +1,11 @@
+.theme-switcher_location_header {
+  display: none;
+}
+
+@media screen and (max-width: $mobile) {
+  .theme-switcher_location_header {
+    display: block;
+    align-self: center;
+    margin-bottom: 38px;
+  }
+}

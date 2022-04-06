@@ -1,0 +1,22 @@
+.quote__text {
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 600;
+  max-width: 470px;
+  margin: 0;
+  grid-area: quote;
+}
+
+@media screen and (max-width: $tablet) {
+  .quote__text {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .quote__text {
+    font-size: 23px;
+    line-height: 29px;
+    letter-spacing: -.5px;
+  }
+}

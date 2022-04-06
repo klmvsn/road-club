@@ -1,0 +1,10 @@
+.slider__button_type_next {
+  background-image: var(--sliderArrowRight);
+  background-position: top 17px left 23px;
+}
+
+@media screen and (max-width: $mobile) {
+  .slider__button_type_next {
+    background-position: top 7px left 10.5px;
+  }
+}

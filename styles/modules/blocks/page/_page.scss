@@ -1,0 +1,6 @@
+.page {
+  @include mainFont;
+  background-color: var(--backgroundColor);
+  max-width: 1440px;
+  min-width: 320px;
+}

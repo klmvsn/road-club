@@ -1,0 +1,17 @@
+.slider__item {
+  display: grid;
+  grid-template-areas:
+  "title title title"
+  "paragraph paragraph paragraph"
+  "photo photo photo"
+  "button button .";
+}
+
+@media screen and (max-width: $mobile) {
+  .slider__item {
+    grid-template-areas:
+    "title button button"
+    "photo photo photo"
+    "paragraph paragraph paragraph";
+  }
+}

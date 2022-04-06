@@ -1,0 +1,13 @@
+.footer__subscribe {
+  max-width: 229px;
+  margin: 0 0 50px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: $mobile) {
+  .footer__subscribe {
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,11 @@
+.bikes__slider-dot {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: $dotsColor;
+  margin-right: 5px;
+}
+
+.bikes__slider-dot:last-of-type {
+  margin-right: 0;
+}

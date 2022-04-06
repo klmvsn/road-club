@@ -1,0 +1,11 @@
+.bikes__gallery-item {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+@media screen and (max-width: $mobile) {
+  .bikes__gallery-item {
+    display: none;
+  }
+}

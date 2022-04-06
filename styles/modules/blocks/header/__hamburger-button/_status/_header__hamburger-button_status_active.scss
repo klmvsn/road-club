@@ -1,0 +1,17 @@
+.header__hamburger-button_status_active ~ .menu {
+    display: flex;
+}
+
+.header__hamburger-button_status_active ~ .header__hamburger-label > .header__hamburger-visible-button {
+  transform: rotate(45deg);
+}
+
+.header__hamburger-button_status_active ~ .header__hamburger-label > .header__hamburger-visible-button::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.header__hamburger-button_status_active ~ .header__hamburger-label > .header__hamburger-visible-button::before {
+  top: 0;
+  transform: rotate(0);
+}

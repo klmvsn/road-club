@@ -1,0 +1,23 @@
+.quote__author {
+  display: block;
+  margin: 0;
+  max-width: 470px;
+  font-size: 20px;
+  line-height: 32px;
+  font-style: normal;
+  font-weight: 500;
+  grid-area: author;
+}
+
+@media screen and (max-width: $tablet) {
+  .quote__author {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: $mobile) {
+  .quote__author {
+    font-size: 14px;
+    line-height: 22px;
+  }
+}

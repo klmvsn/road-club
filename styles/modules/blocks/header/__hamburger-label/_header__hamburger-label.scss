@@ -1,0 +1,15 @@
+.header__hamburger-label {
+  display: none;
+  margin: 25px 18px 30px;
+  align-items: center;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 6;
+}
+
+@media screen and (max-width: $mobile) {
+  .header__hamburger-label {
+    display: flex;
+  }
+}

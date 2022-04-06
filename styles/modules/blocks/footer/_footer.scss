@@ -1,0 +1,14 @@
+.footer {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 80px 120px 60px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--footerColor);
+}
+
+@media screen and (max-width: $mobile) {
+  .footer {
+    padding: 0;
+  }
+}

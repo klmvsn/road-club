@@ -1,0 +1,21 @@
+.theme-switcher {
+  align-self: flex-end;
+  position: relative;
+  display: inline-block;
+  width: 44px;
+  height: 24px;
+}
+
+.theme-switcher:before {
+  content: var(--sun);
+  position: absolute;
+  top: -2px;
+  left: -44px;
+}
+
+.theme-switcher:after {
+  content: var(--moon);
+  position: absolute;
+  top: 2px;
+  right: -40px;
+}

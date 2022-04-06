@@ -1,0 +1,10 @@
+.trainings__paragraph {
+  @include paragraph;
+  grid-area: paragraph;
+}
+
+@media screen and (max-width: $mobile) {
+  .trainings__paragraph {
+    @include paragraphMobile;
+  }
+}
